@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ForKelipatan09_1 {
     public static void main(String[] args) {
-        Scanner input16 = new Scanner(System.in);
+        Scanner input09 = new Scanner(System.in);
 
         int kelipatan;
         int jumlah = 0;
@@ -10,7 +10,7 @@ public class ForKelipatan09_1 {
         double rataRata = 0.0;
 
         System.out.print("Masukkan bilanhgan kelipatan (1 - 9) : ");
-        kelipatan =  input16.nextInt();
+        kelipatan =  input09.nextInt();
 
         for (int i = 1; i <= 50; i ++) {
             if (i % kelipatan == 0) {
@@ -20,6 +20,7 @@ public class ForKelipatan09_1 {
             i ++;
             rataRata = (double)
             jumlah / counter;
+            
          }
         System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
         System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", kelipatan, jumlah);
